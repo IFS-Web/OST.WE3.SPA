@@ -1,0 +1,18 @@
+{
+  "name": "we3-client-build",
+  "version": "0.3.1",
+  "private": true,
+  "sideEffects": [],
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  },
+  "devDependencies": {
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.1.5",
+    "webpack": "^5.24.0",
+    "webpack-cli": "^4.5.0"
+  }
+}

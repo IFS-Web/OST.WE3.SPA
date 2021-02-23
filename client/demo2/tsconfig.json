@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "../public/scripts",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "module": "commonjs",
+    "target": "ES5",
+    "experimentalDecorators": true,
+    "lib": [
+      "DOM",
+      "ES2015",
+      "ES2015.promise"
+    ]
+  }
+}
