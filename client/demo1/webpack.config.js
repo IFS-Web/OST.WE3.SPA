@@ -36,8 +36,9 @@ module.exports = {
     },
     optimization: {
         // DEMO1: add minimizer
-        minimize: true,
+        minimize: false,
         minimizer: [new TerserPlugin()],
       },
-    mode: "production"
+    devtool: "source-map",
+    mode: "development"
 };
